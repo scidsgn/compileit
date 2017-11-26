@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				font-family: "Segoe UI";
+			}
+		</style>
+	</head>
+	<body>
+		This is a list of things currently supported or unsupported by CompileIt.
+
+		<h1>Supported</h1>
+		<h2>Datatypes</h2>
+		<ul>
+			<li>Bool</li>
+			<li>Int</li>
+			<li>Number</li>
+			<li>String</li>
+		</ul>
+
+		<h2>Operators</h2>
+		<ul>
+			<li>+, -, *, /, ^</li>
+			<li>=, &lt;, &lt;=, &gt;, &gt;=, &lt;&gt;</li>
+			<li>And, Or</li>
+			<li>Not</li>
+		</ul>
+
+		<h2>Statements</h2>
+		<ul>
+			<li>Global var, ... - only outside of functions</li>
+			<li>Local var, ...</li>
+			<li>If (multi-line and single-line)</li>
+			<li>For (no Step)</li>
+			<li>While</li>
+		</ul>
+
+		<h2>Functions</h2>
+		<ul>
+			<li>ConsoleWrite</li>
+			<li>StringLen, StringCompare, StringReverse</li>
+			<li>Sin, Cos, Tan, ASin, ACos, ATan</li>
+			<li>Mod, Ceiling, Floor, Round</li>
+			<li>Sqrt, Exp, Log</li>
+		</ul>
+
+		<h2>Macros</h2>
+		<ul>
+			<li>@CRLF</li>
+			<li>@Compiled</li>
+		</ul>
+
+		<h1>Unsupported</h1>
+		<ul>
+			<li>Everything not on the list above</li>
+			<li>Const, Static</li>
+			<li>Concatenation</li>
+			<li>Type conversions (strings to numbers and vice versa)</li>
+			<li>#include</li>
+		</ul>
+	</body>
+</html>
